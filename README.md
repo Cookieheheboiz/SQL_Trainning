@@ -1,7 +1,7 @@
 # **SQL Training**
 ### Table of contents
-1. [Báo cáo về bài tập SQL](#bao-cao-ve-bai-tap-sql)
-2. [Tìm hiểu về git-github](#tim-hieu-ve-git-github)
+1. [Báo cáo về bài tập SQL](#báo-cáo-về-bài-tập-sql)
+2. [Tìm hiểu về git-github](#tìm-hiểu-về-git-github)
 
 # Báo cáo về bài tập SQL <a name="SQL_Assignment"></a>
 ### Testing System 1
