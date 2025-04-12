@@ -3,7 +3,7 @@
 1. [Báo cáo về bài tập SQL](#báo-cáo-về-bài-tập-sql-)
 2. [Tìm hiểu về git-github](#tìm-hiểu-về-git-github-)
 
-# Báo cáo về bài tập SQL 
+# Báo cáo về bài tập SQL <a name="SQL_Assignment"></a>
 ### Testing System 1
 Tìm hiểu cách tạo bảng cơ bản với các kiểu dữ liệu, định dạng có sẵn trong bài tập
 ### Testing System 2
@@ -31,7 +31,7 @@ Tìm hiểu cách tạo bảng cơ bản với các kiểu dữ liệu, định 
 ### Testing System 7
 Tìm hiểu về **trigger** và **case when**
 
-# Tìm hiểu về git-github
+# Tìm hiểu về git-github <a name="git_github"></a>
 - Git là hệ thống quản lý tài liệu, source code. Giúp quản lý dự án của nhóm dễ hơn. Tất cả thao tác xóa, thêm, sửa, ... đều được git ghi lại. Từ đấy có thể giúp dễ dàng tìm ra nguyên nhân lỗi nếu dữ án đấy gặp phải.
 - Có 2 loại repository là local repository và remote repository, github chính là remote repository.
 - Để tạo repo trong một project thì đầu tiên vào folder đó rồi bật cmd lên. Sau đó nhập git init
