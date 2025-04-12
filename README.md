@@ -3,7 +3,7 @@
 1. [Báo cáo về bài tập SQL](#báo-cáo-về-bài-tập-sql-)
 2. [Tìm hiểu về git-github](#tìm-hiểu-về-git-github-)
 
-# Báo cáo về bài tập SQL <a name="SQL_Assignment"></a>
+# Báo cáo về bài tập SQL 
 ### Testing System 1
 Tìm hiểu cách tạo bảng cơ bản với các kiểu dữ liệu, định dạng có sẵn trong bài tập
 ### Testing System 2
@@ -31,5 +31,12 @@ Tìm hiểu cách tạo bảng cơ bản với các kiểu dữ liệu, định 
 ### Testing System 7
 Tìm hiểu về **trigger** và **case when**
 
-# Tìm hiểu về git-github <a name="git_github"></a>
-
+# Tìm hiểu về git-github
+- Git là hệ thống quản lý tài liệu, source code. Giúp quản lý dự án của nhóm dễ hơn. Tất cả thao tác xóa, thêm, sửa, ... đều được git ghi lại. Từ đấy có thể giúp dễ dàng tìm ra nguyên nhân lỗi nếu dữ án đấy gặp phải.
+- Có 2 loại repository là local repository và remote repository, github chính là remote repository.
+- Để tạo repo trong một project thì đầu tiên vào folder đó rồi bật cmd lên. Sau đó nhập git init
+- Tiếp theo đến git add, có thể git add . để thêm toàn bộ file có trong folder đó lên index.
+- Sau đó cần phải commit để lưu lại các sự thay đổi ấy, lệnh là git commit -m "message"
+- Tạo ra nhánh chính thì dùng câu lệnh git branch -M master, còn nếu không muốn thao tác trực tiếp trên nhánh chính thì có thể tạo nhánh khác bằng cách git checkout -b rồi nhập tên nhánh phụ đó vào. Sau này muốn gộp nhánh phụ này với nhánh chính thì có thể merge vào nhánh master
+- Nếu đó là lần đầu tiên add folder đó lên 1 repo trên github thì cần có thao tác là lấy đường dẫn đến repo trên github. Vẫn trong cmd nhập lệnh git remote add origin và nhập đường dẫn đến repo đó.
+- Sau cùng là push lên github thì dùng git push -u origin master, nó sẽ đẩy từ local repo lên remote repo chính là github.
